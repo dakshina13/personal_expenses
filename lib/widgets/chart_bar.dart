@@ -9,6 +9,7 @@ class ChartBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("Build() ChartBar.dart");
     return LayoutBuilder(builder: (ctx, constraints) {
       return Column(
         children: <Widget>[
